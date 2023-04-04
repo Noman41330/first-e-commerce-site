@@ -1,7 +1,20 @@
 .skyblue-bg{
-    background-color: aquamarine;
+    background-color: rgb(255, 127, 180);
 }
 
 .carousel-item{
-    padding: 40px;
+
+   padding-top: 10%;
+    
+}
+
+.buyNow:hover{
+    /* cursor: pointer; */
+    background-color: rgb(190, 201, 198);
+
+
+}
+
+button:hover{
+    background-color: rgba(234, 237, 234, 0.324);
 }
