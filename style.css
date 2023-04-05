@@ -1,20 +1,77 @@
+.container{
+    margin-bottom: 100px;
+}
+/* .banner{
+    height: 200px;
+} */
+.logo{
+    width: 120px;
+    height: 50px;
+}
 .skyblue-bg{
-    background-color: rgb(255, 127, 180);
+    background-color: rgb(231, 109, 160);
+    border-radius: 10px;
 }
 
-.carousel-item{
+.upCut{
 
    padding-top: 10%;
     
 }
 
 .buyNow:hover{
-    /* cursor: pointer; */
-    background-color: rgb(190, 201, 198);
+    cursor: pointer;
+    background-color: rgba(236, 17, 178, 0.973);
 
 
 }
 
 button:hover{
-    background-color: rgba(234, 237, 234, 0.324);
+    background-color: rgba(240, 240, 234, 0.39);
+}
+
+.cat1{
+    background-color: orange;
+    border-radius: 8px;
+}
+.cat2{
+    background-color: rgb(232, 20, 169);
+    border-radius: 8px;
+}
+.cat3{
+    background-color: rgb(72, 0, 255);
+    border-radius: 8px;
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.category h1{
+    color: white;
+}
+.category img{
+   width: 100px;
+}
+
+.price{
+    color: green;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.contact h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact{
+    border: 2px;
+    border-radius: 10px;
+    border-color: pink;
+}
+.submit{
+    background-color: rgb(137, 149, 149);
 }
